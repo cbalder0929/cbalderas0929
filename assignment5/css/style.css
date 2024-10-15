@@ -1,0 +1,333 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(135,135,135,1) 50%, rgba(0,0,0,1) 100%);}
+
+#at{
+	position:relative;
+	top:250px;
+	left:400px;
+	font-size:200px;
+	animation-name:colors;
+		animation-duration:3s;
+		animation-iteration-count:infinite;
+		animation-direction:alternate;
+	
+	
+	}
+	#at:hover{
+		font-size:600px;
+		animation-name:zip;
+		animation-duration:3s;
+	
+		
+		}
+
+	
+	
+	
+#heart{
+	position:fixed;
+	left:100px;
+	top:200px;
+	font-size:400px;
+	color:#F169D9;
+	
+	
+	}
+	#heart:hover{
+		transform: rotateY(150deg);
+		transform: rotateZ(90deg);
+		
+		}
+	
+
+#spade{
+	position:fixed;
+	top:500px;
+	left:700px;
+	font-size:50px;
+	color:#9A19BE;
+	
+	
+	}
+	#spade:hover{
+		font-size:100px
+	
+		
+		
+		}
+	
+	
+	
+#money{
+position:fixed;
+top:350px;
+right:300px;
+font-size:100px;
+color:#257025;
+	}
+	#money:hover{
+ animation: spin 1s linear infinite;		}
+	
+	
+	
+#square {
+  height: 50px;
+  width: 50px;
+  background-color: #FE9900;
+  position:fixed;
+  left:15px;
+top:5px;
+
+
+
+}
+#square:hover{
+  width: 700px;
+  color:red;
+  height:400px;
+
+
+	}
+
+
+
+    #yin-yang {
+      width: 96px;
+      box-sizing: content-box;
+      height: 48px;
+      background: #eee;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px 2px 50px 2px;
+      border-radius: 100%;
+      position: relative;
+	top:500px;
+	left:1100px;
+	 animation-name:spin;
+animation-duration:4s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+
+    }
+    #yin-yang:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background: #eee;
+      border: 18px solid black;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      box-sizing: content-box;
+	   
+	 
+    }
+    #yin-yang:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: black;
+      border: 18px solid #eee;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      box-sizing: content-box; 	
+	   
+	
+    }
+	    
+		
+		#star-five:hover{	 animation-name:spin;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+
+	}
+		#star-five {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: #FDE10F;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid #FDE10F;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+	margin:auto;
+    }
+    #star-five:before {
+      border-bottom: 80px solid #FDE10F;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    #star-five:after {
+      position: absolute;
+      display: block;
+      color: #FDE10F;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid #FDE10F;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+      
+	  
+	  
+	  #space-invader {
+      box-shadow: 0 0 0 1em #67E2E2,
+      0 1em 0 1em #67E2E2,
+      -2.5em 1.5em 0 .5em #67E2E2,
+      2.5em 1.5em 0 .5em #67E2E2,
+      -3em -3em 0 0 #67E2E2,
+      3em -3em 0 0 #67E2E2,
+      -2em -2em 0 0 #67E2E2,
+      2em -2em 0 0 #67E2E2,
+      -3em -1em 0 0 #67E2E2,
+      -2em -1em 0 0 #67E2E2,
+      2em -1em 0 0 #67E2E2,
+      3em -1em 0 0 #67E2E2,
+      -4em 0 0 0 #67E2E2,
+      -3em 0 0 0 #67E2E2,
+      3em 0 0 0 #67E2E2,
+      4em 0 0 0 #67E2E2,
+      -5em 1em 0 0 #67E2E2,
+      -4em 1em 0 0 #67E2E2,
+      4em 1em 0 0 #67E2E2,
+      5em 1em 0 0 #67E2E2,
+      -5em 2em 0 0 #67E2E2,
+      5em 2em 0 0 #67E2E2,
+      -5em 3em 0 0 #67E2E2,
+      -3em 3em 0 0 #67E2E2,
+      3em 3em 0 0 #67E2E2,
+      5em 3em 0 0 #67E2E2,
+      -2em 4em 0 0 #67E2E2,
+      -1em 4em 0 0 #67E2E2,
+      1em 4em 0 0 #67E2E2,
+      2em 4em 0 0 #67E2E2;
+      background: #67E2E2;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      right:100px;
+	  top:100px;
+	  position:fixed;
+	  animation-name:zip;
+	  animation-duration:3s;
+	  animation-iteration-count:3;
+    }
+	   
+#magnifying-glass:hover{
+	left:1000px;
+	
+
+	
+	}
+
+#magnifying-glass {
+      font-size: 10em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid #9D9B9C;
+      position: relative;
+      border-radius: 0.35em;
+	  position:fixed;
+	  bottom:30px;
+	  left:15px;
+    }
+    #magnifying-glass:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -0.25em;
+      bottom: -0.1em;
+      border-width: 0;
+      background: #9D9B9C;
+      width: 0.35em;
+      height: 0.08em;
+      transform: rotate(45deg);
+	
+    }
+  
+  
+  #oval:hover{
+	background-color:purple;
+	  }
+  #oval {
+  height: 50px;
+  width: 100px;
+  background-color: #FFFFFE;
+  border-radius: 50%;
+  margin-left:400px;
+  }
+  
+  
+@keyframes spin
+{
+	0%{
+
+		
+		}
+	100%{
+		transform: rotate(360deg);
+		scale: 5;
+		}
+	
+	}
+	@keyframes zip{
+	
+		0%{right:100px;top:100px}
+		25%{right:500px;top:100px;}
+	50%{top:500px;right:500px;}
+	75%{right:1000px;}
+		100%{}
+		
+		
+		}
+		@keyframes colors{
+			0%{color:black;}
+			10%{color:#FE0303;}
+			20%{color:#FE8C02;}
+			30%{color:#FAFE02;}
+			40%{color:#2CFE02;}
+			50%{color:#02F5FE;}
+			60%{color:#A102FE;}
+			70%{color:#FE02CF;}
+			100%{color:white;}
+			
+			
+			
+			}
