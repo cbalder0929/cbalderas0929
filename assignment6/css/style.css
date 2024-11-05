@@ -1,0 +1,119 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	display:block;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background-image: url('../img/bbb.jpg');
+	background-position:center;
+	
+	
+	
+
+
+	
+}
+
+
+#container {
+
+	
+	
+}
+
+p {
+	Background-color: #91E470;
+	margin: 1em;
+	padding: 1em;
+	font-family: "Bona Nova SC", serif;
+}
+#container > header {
+	Background-color: #000000;
+	color: white;
+	text-align: center;
+	font-family: "Rubik Wet Paint", system-ui;
+	font-size: 25px;
+	padding: 10px;
+}
+#dogs > header {
+	text-align: center;
+	color: white;
+	font-family: "Rubik Wet Paint", system-ui;
+}
+#cats > header {
+	text-align: center;
+	color: white;
+	font-family: "Rubik Wet Paint", system-ui;
+}
+footer {
+	font-family: "Tiny5", sans-serif;
+	font-size:15px;
+	color:white;
+}
+a {
+	background-color: #8D6F64;
+	color: white;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 8px;
+}
+	a:hover {
+		background-color: #7DDA58;
+	}
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	#cats {
+		float: left;
+		width: 50%;
+	}
+
+	#dogs {
+		float: right;
+		width: 50%;
+	}
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
