@@ -17,7 +17,7 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	background-image: url("assignment6/assignment6/img/doggo3.JPG");
+	background-image: url("img/doggo3.JPG");
 	background-size:cover;
 	background-position: center;
 	
