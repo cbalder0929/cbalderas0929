@@ -9,7 +9,7 @@ html {
 		/* Standard text-settings below */
 	font-size: 1em;
     line-height: 1.4em;
-	display:block;
+	
 }
 
 
@@ -17,8 +17,8 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	background-image: url(assignment6/img/bbb.JPG);
-	background-position:center;
+	background-image: url(../img/bbb.JPG);
+	
 	
 	
 	
@@ -50,18 +50,18 @@ p {
 }
 #dogs > header {
 	text-align: center;
-	color: white;
+	color:  #000000;
 	font-family: "Rubik Wet Paint", system-ui;
 }
 #cats > header {
 	text-align: center;
-	color: white;
+	color:  #000000;
 	font-family: "Rubik Wet Paint", system-ui;
 }
 footer {
 	font-family: "Tiny5", sans-serif;
 	font-size:15px;
-	color:white;
+	color: #000000;
 }
 a {
 	background-color: #8D6F64;
