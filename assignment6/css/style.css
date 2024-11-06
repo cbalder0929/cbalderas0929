@@ -50,18 +50,18 @@ p {
 }
 #dogs > header {
 	text-align: center;
-	color:  #000000;
+	color:  #FFFFFF;
 	font-family: "Rubik Wet Paint", system-ui;
 }
 #cats > header {
 	text-align: center;
-	color:  #000000;
+	color:  #FFFFFF;
 	font-family: "Rubik Wet Paint", system-ui;
 }
 footer {
 	font-family: "Tiny5", sans-serif;
 	font-size:15px;
-	color: #000000;
+	color: #FFFFFF;
 }
 a {
 	background-color: #8D6F64;
