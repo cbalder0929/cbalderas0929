@@ -1,0 +1,52 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background-color:#818181;
+	
+	
+}
+
+
+#container {
+	border: 5px solid black;
+	position:relative;
+	padding:20px;
+	background-color:#ABACAC;
+	
+}
+h1{
+	text-align:center;
+	font-family:"Doto", sans-serif;
+	}
+main{
+	display:flex;
+	
+	
+	}
+p{
+	font-family:"Monospace",Courier New;
+}
+.img{
+	width:500px;
+	height:315px;
+	}
+	footer{
+		text-align:center;
+		
+		}
+
+
