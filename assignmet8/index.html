@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Assignment 8</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+<h1>
+Who is the G.O.A.T of basketball?
+</h1>
+  <div id="container">
+  <div id= 'button'>
+  
+  
+   <button>Sigan Viendo</button>
+   </div>
+  <p>
+  This is a topic that has been debated since the dawn of time. I am here to give my opinion on this matter. In this debate the 2 that are usually up for debate are Micheal Jordan and Lebron James. Now the answer is simple its Lebron. I think it is Lebron for the following reasons. First reason being Lebron started playing NBA basketball at just 16 years old Mj was drafted at 21. Another reason I belive he is the goat is becasue in Jordan's time the league was a much simpler place. At the time there was no players playing on Mj's level now days there are numerous players who have the skill level of Mj and still lebron manages to maintain a large skill gap. Mj was a pioneer and had a big impact on the entire game. He opened doors for nba players to make money with shoe deals, created a new way of playing that was more dtnamic and fast paced, and is the inspiration of many of the players in the league today. Lebron was just blessed to have all the gifts needed to be the best basketball player. Hes just to good no other way to put it. He's to strong, too athletic , too fast for anyone to compete and he can just withstand more than any other player which is why he is the best.
+  
+ 
+
+
+
+Click paragrah to continue
+  <p>
+ 
+
+<div id ="image">
+<img class= 'image'src= 'img/coll.jpg' >
+<p>Me at the Colloseum,
+click to continue</p>
+
+</div>
+<div id= "vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6-TNW-liRU?si=fFY9DjfZm3nKB_OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
+
+  </div><!-- close "container" -->
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $('p').hide();
+  $('#image').hide();
+  $('#vid').hide();
+
+  $(document).ready(function() {
+$('button').click(function() {
+$('p').show();
+});//close.ready
+
+
+$('p').click(function() {
+$('#image').show();
+});//close.ready
+
+$('#image').click(function(){
+$('#vid').show();
+});//close
+
+  }); //close .ready()
+</script>
+
+</body>
+	
+</html> 
