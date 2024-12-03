@@ -1,0 +1,86 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+margin: 0;	
+	font-family: Arial, sans-serif;
+}
+
+
+#container {
+	
+}
+.navbar { 
+	display: flex; align-items: 
+	center; justify-content: space-between; 
+	background-color: #D20103; 
+	padding: 10px 20px; } 
+.navbar img { 
+	height: 40px; 
+	} 
+.navbar ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	display: flex; } 
+	.navbar li { 
+		margin: 0 10px;
+		} 
+.navbar a { 
+	color: white; 
+	text-decoration: none; 
+	padding: 8px 16px; 
+	transition: background 0.3s; } 
+.navbar a:hover { 
+	background-color: #F03A3C; 
+	} 
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
